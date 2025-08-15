@@ -46,8 +46,12 @@ Banglish is a domain-specific programming language that allows developers to wri
 
 ```banglish
 shuru bhai
-nam bhai x = 15
-nam bhai y = 25
-bol bhai x + y
+nam bhai x = 7
+nam bhai y = 10
+jodi bhai (x > y) {
+    bol bhai "x is greater"
+} nahole bhai {
+    bol bhai x + y * 2
+}
 shesh bhai
 ```
